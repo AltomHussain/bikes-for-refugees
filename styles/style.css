@@ -93,22 +93,43 @@ button {
   max-width: 100px;
   background: #ce5f31;
 }
-
 /* Article */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
 .article {
-  margin-bottom: 2em;
+  margin: 10px;
   display: flex;
   font-size: 15px;
+  justify-content: center;
+  padding-top: 10px;
 }
-.article .img-fluid {
-  max-width: 80px;
+.img-fluid {
+  width: 90px;
+  height: 90px;
   margin-right: 15px;
+  float: left;
+  margin-right: 10px;
 }
-
-.article-info {
+.article-boxes {
+  display: flex;
 }
-a {
-  font-size: 15px;
+.box1 {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(200, 186, 186);
+}
+.box2 {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+  border-style: solid;
 }
 .article__title {
   margin-bottom: 0.5em;
