@@ -11,10 +11,10 @@ body {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
-button {
+/* button {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   background-color: orange;
-}
+} */
 #bot {
   background-color: white;
 }
@@ -68,7 +68,7 @@ button {
 /* Jumbotron */
 .jumbotron {
   border-radius: 0;
-  background-image: url("../images/header-bike.jpg");
+  background-image: url("/images/header-bike.jpg");
   color: white;
 }
 
