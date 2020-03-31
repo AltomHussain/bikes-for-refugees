@@ -68,7 +68,7 @@ body {
 /* Jumbotron */
 .jumbotron {
   border-radius: 0;
-  background-image: url("./images/header-bike.jpg");
+  background-image: url("/images/header-bike.jpg");
   color: white;
 }
 
